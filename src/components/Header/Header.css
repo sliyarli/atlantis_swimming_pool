@@ -1,0 +1,141 @@
+header {
+  position: relative;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f2c7ff),
+    color-stop(#f1c3ff),
+    color-stop(#f0c0ff),
+    color-stop(#efbcff),
+    color-stop(#eeb8ff),
+    color-stop(#edbdff),
+    color-stop(#ecc3ff),
+    color-stop(#ebc8ff),
+    color-stop(#edd7ff),
+    color-stop(#f0e5ff),
+    color-stop(#f6f2ff),
+    to(#ffffff)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    #f2c7ff,
+    #f1c3ff,
+    #f0c0ff,
+    #efbcff,
+    #eeb8ff,
+    #edbdff,
+    #ecc3ff,
+    #ebc8ff,
+    #edd7ff,
+    #f0e5ff,
+    #f6f2ff,
+    #ffffff
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #f2c7ff,
+    #f1c3ff,
+    #f0c0ff,
+    #efbcff,
+    #eeb8ff,
+    #edbdff,
+    #ecc3ff,
+    #ebc8ff,
+    #edd7ff,
+    #f0e5ff,
+    #f6f2ff,
+    #ffffff
+  );
+  max-width: 100%;
+}
+
+.header img {
+  position: relative;
+  /* max-width: 100%; */
+  /* padding: 50px 0; */
+}
+
+.header-content {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: "Archivo", sans-serif;
+  color: #fff;
+  font-size: 15px;
+}
+
+.header-routes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 20px;
+  letter-spacing: 3px;
+}
+
+.header-content a,
+.header-content h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.header-routes span {
+  font-size: 20px;
+  padding: 0 15px;
+}
+
+.header-routes h2 {
+  margin: 0;
+}
+
+.header-content a {
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+  text-align: center;
+}
+
+.header-content a:hover {
+  color: #969696;
+}
+
+@media (min-width: 500px) {
+  .header img {
+    height: 580px;
+    width: 100%;
+    object-position: left;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+}

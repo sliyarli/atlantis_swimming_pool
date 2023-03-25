@@ -1,0 +1,308 @@
+.about-us-section {
+  padding-top: 150px !important;
+  min-height: 150vh !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative !important;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#0152a3),
+    color-stop(#005aaa),
+    color-stop(#0063b0),
+    color-stop(#006bb6),
+    color-stop(#0073bc),
+    color-stop(#2975bf),
+    color-stop(#3d78c2),
+    color-stop(#4c7ac4),
+    color-stop(#6777c1),
+    color-stop(#7d73bd),
+    color-stop(#8f6fb6),
+    to(#9e6cae)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    #0152a3,
+    #005aaa,
+    #0063b0,
+    #006bb6,
+    #0073bc,
+    #2975bf,
+    #3d78c2,
+    #4c7ac4,
+    #6777c1,
+    #7d73bd,
+    #8f6fb6,
+    #9e6cae
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #0152a3,
+    #005aaa,
+    #0063b0,
+    #006bb6,
+    #0073bc,
+    #2975bf,
+    #3d78c2,
+    #4c7ac4,
+    #6777c1,
+    #7d73bd,
+    #8f6fb6,
+    #9e6cae
+  );
+}
+
+.about-us-section .home-section-content {
+  padding-top: 0px !important;
+}
+
+.about-page-header-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.about-page-header-wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 110px;
+}
+
+.about-page-header-wave .shape-fill {
+  fill: #ffffff;
+}
+
+.about-page-header-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.about-page-header-wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 87px;
+}
+
+.about-page-header-wave .shape-fill {
+  fill: #ffffff;
+}
+
+.heads-of-company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flip-card {
+  padding-right: 280px;
+}
+
+#ceo-flip-card {
+  background-image: url(../assets/svgs/About/ceos-photos/ceo_photo_opacity.png);
+}
+
+#ceo-flip-card-2 {
+  background-image: url(../assets/svgs/About/ceos-photos/ceo_photo_2_opacity.png);
+}
+
+#ceo-flip-card-3 {
+  background-image: url(../assets/svgs/About/ceos-photos/ceo_photo_3_opacity.png);
+}
+
+.home-section-content h3 {
+  padding: 50px 0;
+}
+
+/* COMPANY SECTION START */
+
+.company-section {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 200px 0 !important;
+}
+
+.company-section .home-section-content {
+  padding-top: 0px !important;
+}
+
+.company-section .home-section-main-heading {
+  color: white;
+}
+
+.trusted-companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  font-size: 60px;
+}
+
+.trusted-companies img {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 27%;
+  flex: 0 0 27%;
+  -webkit-filter: invert(100%) sepia(7%) saturate(27%) hue-rotate(194deg)
+    brightness(107%) contrast(106%);
+  filter: invert(100%) sepia(7%) saturate(27%) hue-rotate(194deg)
+    brightness(107%) contrast(106%);
+  -webkit-transition: 0.5s !important;
+  -o-transition: 0.5s !important;
+  transition: 0.5s !important;
+  border-radius: 50px;
+  padding: 40px 30px;
+}
+
+.trusted-companies:nth-child(-n + 3) {
+  padding-top: 0;
+}
+
+.trusted-companies img:hover {
+  -webkit-transform: scale(1.1) !important;
+  -ms-transform: scale(1.1) !important;
+  transform: scale(1.1) !important;
+  background-color: #2b8bebc5;
+  border-radius: 50px;
+  -webkit-transform: translate(20px, 20px);
+  -ms-transform: translate(20px, 20px);
+  transform: translate(20px, 20px);
+  cursor: pointer;
+}
+
+/* COMPANY SECTION END */
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .about-us-section {
+    min-height: 295vh !important;
+  }
+
+  .heads-of-company {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .flip-card {
+    padding-bottom: 315px;
+  }
+
+  .company-section .home-section-content {
+    padding-top: 160px;
+  }
+
+  .trusted-companies {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .trusted-companies img {
+    width: 70%;
+    padding-bottom: 30px;
+  }
+
+  .upper-footer h1 {
+    font-size: 25px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-us-section {
+    min-height: 280vh !important;
+  }
+
+  .about-us-section .home-section-secondary-heading br {
+    display: none;
+  }
+
+  .heads-of-company {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .flip-card {
+    padding-bottom: 315px;
+  }
+
+  .company-section .home-section-content {
+    padding-top: 180px;
+  }
+
+  .trusted-companies {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .trusted-companies img {
+    width: 40%;
+    padding-bottom: 30px;
+  }
+
+  .trusted-companies img {
+    width: 50%;
+  }
+
+  .project-info {
+    width: 375px;
+    height: 180px;
+  }
+
+  .project-info:not(:first-child) {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+}

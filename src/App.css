@@ -1,0 +1,228 @@
+/* FONT IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&family=Tilt+Neon&family=Archivo:wght@400;500;700&display=swap");
+
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Tilt Neon', cursive; */
+/* font-family: "Archivo", sans-serif; */
+
+::-webkit-scrollbar {
+  width: 20px;
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: transparent;
+  box-shadow: transparent;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0152a3;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #013263;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.loading-effect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 600px !important;
+}
+
+.loading-effect span{
+  transform: scale(6);
+}
+
+.bg-blue-to-purple {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#0152a3),
+    color-stop(#005aaa),
+    color-stop(#0063b0),
+    color-stop(#006bb6),
+    color-stop(#0073bc),
+    color-stop(#2975bf),
+    color-stop(#3d78c2),
+    color-stop(#4c7ac4),
+    color-stop(#6777c1),
+    color-stop(#7d73bd),
+    color-stop(#8f6fb6),
+    to(#9e6cae)
+  ) !important;
+  background-image: -o-linear-gradient(
+    top,
+    #0152a3,
+    #005aaa,
+    #0063b0,
+    #006bb6,
+    #0073bc,
+    #2975bf,
+    #3d78c2,
+    #4c7ac4,
+    #6777c1,
+    #7d73bd,
+    #8f6fb6,
+    #9e6cae
+  ) !important;
+  background-image: linear-gradient(
+    to bottom,
+    #0152a3,
+    #005aaa,
+    #0063b0,
+    #006bb6,
+    #0073bc,
+    #2975bf,
+    #3d78c2,
+    #4c7ac4,
+    #6777c1,
+    #7d73bd,
+    #8f6fb6,
+    #9e6cae
+  ) !important;
+}
+
+.bg-purple-to-blue {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#0152a3),
+    color-stop(#005aaa),
+    color-stop(#0063b0),
+    color-stop(#006bb6),
+    color-stop(#0073bc),
+    color-stop(#2975bf),
+    color-stop(#3d78c2),
+    color-stop(#4c7ac4),
+    color-stop(#6777c1),
+    color-stop(#7d73bd),
+    color-stop(#8f6fb6),
+    to(#9e6cae)
+  );
+  background-image: -o-linear-gradient(
+    bottom,
+    #0152a3,
+    #005aaa,
+    #0063b0,
+    #006bb6,
+    #0073bc,
+    #2975bf,
+    #3d78c2,
+    #4c7ac4,
+    #6777c1,
+    #7d73bd,
+    #8f6fb6,
+    #9e6cae
+  );
+  background-image: linear-gradient(
+    to top,
+    #0152a3,
+    #005aaa,
+    #0063b0,
+    #006bb6,
+    #0073bc,
+    #2975bf,
+    #3d78c2,
+    #4c7ac4,
+    #6777c1,
+    #7d73bd,
+    #8f6fb6,
+    #9e6cae
+  );
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.home-header-slider-button {
+  margin-top: 15px !important;
+}
+
+.custom-btn {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 10px;
+  letter-spacing: 3px;
+  padding: 15px 35px;
+}
+
+.custom-white-btn {
+  background-color: #fff;
+  color: #1f1f1f;
+}
+
+.custom-white-btn:hover {
+  color: #fff;
+  background-color: #0152a3;
+}
+
+.custom-blue-btn {
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.custom-blue-btn:hover {
+  color: #fff;
+  background-color: #0152a3;
+}
+
+.custom-gray-btn {
+  background-color: #fff;
+  color: #1f1f1f;
+}
+
+.custom-gray-btn:hover {
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.back-to-top {
+  background-color: transparent !important;
+  z-index: 999 !important;
+}
+
+.back-to-top-icon {
+  font-size: 50px;
+  color: #ffff;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (min-width: 500px) and (max-width: 767px) {
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+}

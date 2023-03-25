@@ -1,0 +1,25 @@
+.flip-card {
+  transition: 0.5s;
+}
+
+.flip-card-front img {
+  border-radius: 20%;
+}
+
+.flip-card-back {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 360px;
+  color: #fff;
+  border-radius: 20%;
+  text-shadow: 2px 2px 4px #0152a3;
+}
+
+.flip-card-back h1 {
+  padding-bottom: 15px;
+}

@@ -1,0 +1,320 @@
+.contact-page-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#0152a3),
+    color-stop(#005aaa),
+    color-stop(#0063b0),
+    color-stop(#006bb6),
+    color-stop(#0073bc),
+    color-stop(#2975bf),
+    color-stop(#3d78c2),
+    color-stop(#4c7ac4),
+    color-stop(#6777c1),
+    color-stop(#7d73bd),
+    color-stop(#8f6fb6),
+    to(#9e6cae)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    #0152a3,
+    #005aaa,
+    #0063b0,
+    #006bb6,
+    #0073bc,
+    #2975bf,
+    #3d78c2,
+    #4c7ac4,
+    #6777c1,
+    #7d73bd,
+    #8f6fb6,
+    #9e6cae
+  );
+  background-image: linear-gradient(
+    to bottom,
+    #0152a3,
+    #005aaa,
+    #0063b0,
+    #006bb6,
+    #0073bc,
+    #2975bf,
+    #3d78c2,
+    #4c7ac4,
+    #6777c1,
+    #7d73bd,
+    #8f6fb6,
+    #9e6cae
+  );
+  position: relative;
+}
+
+.contact-page {
+  min-height: 140vh;
+}
+
+.contact-page-info .home-section-content {
+  padding-top: 120px;
+}
+
+.contact-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.contact-info {
+  -webkit-transition: 0.5s !important;
+  -o-transition: 0.5s !important;
+  transition: 0.5s !important;
+  border-radius: 70px;
+  padding: 25px;
+  letter-spacing: 3px;
+}
+
+.contact-info:hover {
+  background-color: #2b8bebc5;
+  border-radius: 50px;
+  -webkit-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+
+.contact-info svg {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  font-family: "Archivo", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #ffff;
+  font-size: 30px;
+}
+
+#contact-form-section {
+  padding: 50px 30px;
+}
+
+.faq-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 120vh;
+}
+
+.custom-shape-divider-top-1679254135 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1679254135 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 135px;
+}
+
+.custom-shape-divider-top-1679254135 .shape-fill {
+  fill: #9e6cae;
+}
+
+.faq-section-left {
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.faq-section-left img {
+  border-radius: 70px;
+}
+
+.faq-row-wrapper {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.row-title-text {
+  font-size: 25px !important;
+  color: #0152a3;
+}
+
+.row-content-text {
+  font-size: 21px !important;
+}
+
+.faq-section .home-introduction-wave-bottom .shape-fill {
+  fill: #0152a3;
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .contact-info-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-info:not(:last-child) {
+    padding-bottom: 60px;
+  }
+
+  .contact-page-info {
+    min-height: 195vh;
+  }
+
+  .contact-page-info .home-section-content {
+    padding-bottom: 0;
+  }
+
+  .contact-page-info .home-section-main-heading {
+    font-size: 65px;
+  }
+
+  .contact-page {
+    padding-top: 240px !important;
+  }
+
+  .faq-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 215vh;
+  }
+
+  .faq-section-left {
+    padding-right: 0;
+  }
+
+  .faq-section-left img {
+    width: 100%;
+  }
+
+  .faq-section-right {
+    padding-top: 60px !important;
+  }
+
+  .faq-title h2 {
+    font-size: 25px !important;
+    padding-bottom: 40px;
+  }
+
+  .faq-section-right {
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contact-info-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .contact-page {
+    padding-top: 240px !important;
+  }
+
+  .contact-info:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .contact-page-info {
+    min-height: 180vh;
+  }
+
+  .faq-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 200vh;
+  }
+
+  .faq-section-left {
+    padding-right: 0;
+  }
+
+  .faq-section-right {
+    padding-top: 60px !important;
+  }
+
+  .faq-title h2 {
+    font-size: 25px !important;
+    padding-bottom: 40px;
+  }
+
+  .faq-section-right {
+    padding-bottom: 60px;
+  }
+
+  .contact-form-left {
+    height: 300px;
+  }
+
+  .contact-form-right {
+    padding-left: 40px;
+  }
+
+  .upper-footer h1 {
+    font-size: 30px !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+}
